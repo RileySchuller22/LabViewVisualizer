@@ -186,7 +186,7 @@ button_frame = tk.Frame(control_frame)
 button_frame.pack(side=tk.TOP, pady=5)
 
 tk.Button(button_frame, text="Auto-Set T Max", command=auto_set_t_max).pack(side=tk.LEFT, padx=5)
-tk.Button(button_frame, text="Update Plot", command=lambda: [set_time_bounds(), set_y_bounds(), update_plot()]).pack(side=tk.LEFT, padx=5)
+
 tk.Button(button_frame, text="Download Plot", command=download_plot).pack(side=tk.LEFT, padx=5)
 
 # Label for displaying the latest average thrust and time
