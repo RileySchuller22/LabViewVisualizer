@@ -1,7 +1,7 @@
 # LabViewVisualizer
 
 This repository contains Python scripts for working with a load cell and visualizing its output.  
-It was originally developed in a research lab setting as part of a school project.  
+It was originally developed as part of my work at UCI in undergraduate research. LoadCell2.py and LoadCellViewer.py was given to me and my contribution was LoadCellThreaded.py. 
 
 ## 📂 Repository Contents
 - **LoadCell2.py**  
