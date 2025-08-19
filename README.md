@@ -11,11 +11,9 @@ It was originally developed as part of my work at UCI in undergraduate research.
   - Time (s)  
   - 15-second averaged force (g)  
   The results are written to `data.txt`.  
-  > This script is optional — it is mainly kept as reference and for generating `data.txt` directly.
 
 - **LoadCellViewer.py**  
   Provided visualization script that originally used the PySimpleGUI library to plot data from `data.txt`.  
-  Superseded by the threaded version.
 
 - **LoadCellThreaded.py**  
   A custom tool developed to **replace the PySimpleGUI viewer**.  
